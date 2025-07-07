@@ -1,20 +1,26 @@
 // import logo from './logo.svg';
 import './App.css';
-import Greet from './Components/Greet';
-import Login from './Components/Login';
-import Signup from './Components/Signup';
-
+import ClassClick from './Components/ClassClick';
+import Destructure from './Components/Destructure';
+import DestructureClass from './Components/DestructureClass';
+import EventBind from './Components/EventBind';
+import FunctioClick from './Components/FunctionClick';
+import UserForm from './Components/UserForm';
+import UserForm2 from './UserForm2';
 function App() {
   return (
     <div className="App">
-       {/* <h1>welcome to React</h1> {/*javascript xml */}
-      {/* <p>This is a pragraph</p>   */} 
-      {/* <Login/>
-      <Signup/> */}
-      <Greet/>    
-    </div>                                                                        
-  );                                           
-}
-
-export default App;
+       {/* <UserForm/> */}
+       {/* <UserForm2/> */}
+       {/* <Destructure name="Rehinas" age="24"/>
+       <DestructureClass name="rehinas" age={24}/>
+       <DestructureClass name="ajmal" age={25}/> */}
+       {/* <FunctioClick/> */}
+       {/* <ClassClick/> */}
+       <EventBind/>
+    </div>                                                                           
+  );                                                                                
+}   
                                               
+export default App;       
+                                                                        
