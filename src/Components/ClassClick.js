@@ -9,6 +9,6 @@ class ClassClick extends Component{
                <button onClick={this.clickeHandler}>Click Me</button>
            </div> 
         )
-    }
-}
-export default ClassClick;  
+    }   
+}                                                                                                                                 
+export default ClassClick;                                                                                        

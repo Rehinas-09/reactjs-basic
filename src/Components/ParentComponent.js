@@ -46,15 +46,15 @@ import ChildComponent from './ChildComponent';
 
 class ParentComponent extends Component{
      handleInput=(value)=>{
-        alert(`input recieved from child:${value}`)
-     }
+        alert(`input recieved from child:${value}`)                     
+     }              
 
     render(){
-        return(
+        return(                   
             <div>
              <ChildComponent onInputChange={this.handleInput}/>
-            </div>
-        )        
-    }      
+            </div>                  
+        )                        
+    }                                                                                         
 }
 export default ParentComponent;

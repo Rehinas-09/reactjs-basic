@@ -1,0 +1,27 @@
+/* .primary{
+    color: orange;
+}
+.font-xl{
+    font-size: 20px;
+} */
+ .container{
+    background-color: lightblue;
+    padding:20px;
+    border-radius: 10px;
+ }
+ .title{
+    color:navy;
+    text-align: center;
+ }
+ .button{
+    background-color: green;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+ }
+ .button:hover{
+    background-color:darkgreen;
+ }

@@ -23,5 +23,5 @@ class Count extends Component{
         </div>
     )      
    }
-}                 
-export default Count;   
+}                               
+export default Count;     

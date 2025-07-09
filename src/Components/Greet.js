@@ -21,8 +21,8 @@ function Greet(props){
             <p>Age:{props.age}</p>
              <p>Is Student:{props.isStudent ? "YES" :"No"}</p>
         </div>
-    )   
+    )         
 }                                         
 // const Greet=()=><h1>Hello Rehinas</h1>                 
- export default Greet;     
+ export default Greet;       
                                                   
