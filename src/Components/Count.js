@@ -20,8 +20,8 @@ class Count extends Component{
              <h1>count{this.state.count}</h1>
              <button onClick={this.increment}>Increment</button>
              <button onClick={this.decrement}>Decrement</button>
-        </div>
+        </div>   
     )      
-   }
-}                               
-export default Count;     
+   }   
+}                                       
+export default Count;                               

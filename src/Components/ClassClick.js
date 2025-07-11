@@ -10,5 +10,6 @@ class ClassClick extends Component{
            </div> 
         )
     }   
-}                                                                                                                                 
-export default ClassClick;                                                                                        
+}                                                                                                                                                                                                                                                                          
+export default clickeHandler;        
+  

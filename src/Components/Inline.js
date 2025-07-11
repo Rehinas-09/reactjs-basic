@@ -20,15 +20,15 @@ function Inline(){
         padding:'20px',
         color:'white',
         textAlign:'center',
-        borderRadius:'8px',                         
-        cursor:'pointer'
+        borderRadius:'8px',                                                                              
+        cursor:'pointer'               
     };
     return(
         <div style={boxStyle} onClick={()=>setIsActive(!isActive)}>
             {isActive?'Active Box':'Inactive Box'}
          
         </div>
-
+ 
     )
 }                                         
-export default Inline;
+export default Inline;  

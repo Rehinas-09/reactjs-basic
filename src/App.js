@@ -23,6 +23,15 @@ import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
 import PureCom from './Components/PureCom';
 import Omp from './Components/Omp';
+import RefsDemo from './Components/RefsDemo';
+import FocusInput from './Components/FocusInput';
+import FrParentInput from './Components/FrParentInput';
+import Fc from './Components/Fc';
+import Ec from './Components/Ec';
+import Ebind from './Components/Ebind';
+import Pc from './Components/Pc';
+import UserGreet from './Components/UserGreet';
+import ListRender from './Components/ListRender';
 function App() {
   return ( 
     
@@ -49,9 +58,17 @@ function App() {
         {/* <LifeCycleC/> */}
         {/* <FragmentDemo/>  */}
         {/* <Table/> */}
-        <Omp/>
-                        
-    </div>                                                                  
+        {/* <Omp/> */}
+        {/* <RefsDemo/>              */}
+        {/* <FocusInput/> */}
+        {/* <FrParentInput/> */}
+        {/* <Fc/> */}
+      {/* <Ec/> */}
+      {/* <Ebind/> */}
+      {/* <Pc/> */}
+      {/* <UserGreet/> */}
+      <ListRender/>
+    </div>                                                                   
   );                                                                                                                       
 }   
                                                 
