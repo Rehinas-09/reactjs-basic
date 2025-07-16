@@ -25,15 +25,15 @@ function ListRender(){
             age:25,
             skill:'angular'
         },
-        {
-            id:3,
+        {       
+            id:3, 
             name:'diana',
             age:28,                             
             skill:'vue'
         }
     ]
     const personList=persons.map(person=> {
-        <PersonRender person={person} />
+        <PersonRender person={person}/>
     })
     return(
         <div>              

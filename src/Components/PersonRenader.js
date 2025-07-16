@@ -7,4 +7,4 @@ function PersonRender({person}){
         </div>
     )        
 }
-export default PersonRender;         
+export default PersonRender;             

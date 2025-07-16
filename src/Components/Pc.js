@@ -20,4 +20,4 @@ class Pc extends Component{
         )       
     }  
 }
-export default Pc      
+export default Pc        

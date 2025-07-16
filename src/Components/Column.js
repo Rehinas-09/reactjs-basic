@@ -10,6 +10,13 @@ function Column(){
                       <p>{item.title}</p>
                      </React.Fragment>   
                 }) */}
+               {/* {
+                items.map(item=>(
+                    <React.Fragment >   
+
+                    </React.Fragment>
+                ))
+               }  */}
             <th>
                 Name   
             </th>
@@ -18,6 +25,6 @@ function Column(){
             </td>       
         </>
     )
-     
+      
 }
 export default Column;                                                                                           
