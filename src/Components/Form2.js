@@ -52,7 +52,7 @@ class Form2 extends Component{
              <option value='react'>React</option>
              <option value='angular'>Angular</option>
              <option value='vue'>Vue</option> 
-            </select>             
+            </select>                
            </div>    
            <button type="submit">Submit</button>        
                                                                
@@ -60,5 +60,5 @@ class Form2 extends Component{
         )             
     }          
 }      
-export default Form2  
+export default Form2     
         
